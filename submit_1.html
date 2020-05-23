@@ -1,0 +1,52 @@
+<div class="row">
+<section class ="section">
+<header>
+	<meta charset="utf-8">
+	<h3>Register</h3>
+	<h4>Pleaser fill to Register Institution bellow</h4>
+	<link rel="stylesheet" href="style_2.css">
+</header>
+	<main>
+	<form>
+	
+	<div class="item_1">
+	<input type="text" name ="name" placeholder="Name" data-required>
+	<small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i>required field</small>
+	</div>
+	<div class="item_2">
+	<input type ="email" name="email" placeholder="Email" data-email data-required>
+	<small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i>required field</small>
+	<small class="errorEmail"><i class="fa fa-asterisk" aria-hidden="true"></i> email is not valid</small>
+	</div>
+	<div class="item_3">
+	<input type="text" name="address" placeholder="Address" data-required>
+        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+	</div>
+	
+	<div class ="item_5">
+	<input type="text" name="City" placeholder="City" data-required>
+        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+	</div>
+	<div class="item_6">
+	<input type="text" name="ZipCode" placeholder="ZipCode" data-required data-number>
+        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+        <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+	</div>
+	
+	<div class="item_7">
+          <input type="text" name="phone" placeholder="Phone" data-required data-number data-count="10">
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+          <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+          <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
+       	</div>
+	<div class="item_8">
+          <span id="submit" class="submit">Submit</span>
+        </div>
+     </form>  
+</main>
+ <footer>
+      <p>Already have an account? <a href="#">Login here</a></p>
+    </footer>
+    <i class="wave"></i>
+  </section>
+</div>
